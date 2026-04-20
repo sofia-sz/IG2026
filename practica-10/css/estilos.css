@@ -1,0 +1,171 @@
+/* ================================================
+   FIONNA & CAKE — Nueva hoja de estilos
+   Estética: noche mágica / universos paralelos
+   ================================================ */
+
+/* --- Importar fuentes de Google Fonts --- */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Nunito:wght@400;700&display=swap');
+
+/* ----------------------------------------
+   SELECTORES DE ETIQUETA (mínimo 2)
+   ---------------------------------------- */
+
+/* Etiqueta: body — fondo oscuro con textura de estrellas */
+body {
+    background-color: #0d0d1a;
+    background-image:
+        radial-gradient(ellipse at 20% 30%, #1a1a3e 0%, transparent 60%),
+        radial-gradient(ellipse at 80% 70%, #0f2a1a 0%, transparent 60%);
+    color: #e8e0f0;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    line-height: 1.7;
+    margin: 0;
+    padding: 40px;
+    min-height: 100vh;
+}
+
+/* Etiqueta: img — bordes redondeados y sombra brillante */
+img {
+    display: block;
+    border-radius: 16px;
+    box-shadow: 0 0 30px rgba(100, 220, 200, 0.3), 0 0 60px rgba(100, 220, 200, 0.1);
+    margin: 20px 0;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Etiqueta: ul — lista con marcadores personalizados */
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul li::before {
+    content: "✦ ";
+    color: #64dcc8;
+}
+
+/* Etiqueta: ol — lista numerada con color */
+ol {
+    padding-left: 24px;
+}
+
+ol li {
+    margin-bottom: 6px;
+    color: #c8b8e8;
+}
+
+/* Etiqueta: li — espaciado entre ítems */
+li {
+    margin-bottom: 8px;
+    font-size: 17px;
+}
+
+/* Etiqueta: p — párrafo base */
+p {
+    font-weight: bold;
+    font-size: 19px;
+    letter-spacing: 0.03em;
+}
+
+/* ----------------------------------------
+   SELECTORES DE IDENTIFICADOR (mínimo 2)
+   ---------------------------------------- */
+
+/* ID: #menu — links de navegación como botones */
+#menu {
+    display: inline-block;
+    margin: 8px 12px 8px 0;
+    padding: 10px 22px;
+    background-color: transparent;
+    border: 2px solid #64dcc8;
+    border-radius: 30px;
+    color: #64dcc8;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    letter-spacing: 0.05em;
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+}
+
+#menu:hover {
+    background-color: #64dcc8;
+    color: #0d0d1a;
+    box-shadow: 0 0 18px rgba(100, 220, 200, 0.6);
+}
+
+/* ID: #creditos — título especial de la página Créditos */
+#creditos {
+    font-family: 'Cinzel Decorative', serif;
+    font-size: 2.4em;
+    color: #f7c948;
+    text-shadow: 0 0 20px rgba(247, 201, 72, 0.5), 0 0 40px rgba(247, 201, 72, 0.2);
+    border-bottom: 2px solid #f7c948;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+/* ----------------------------------------
+   SELECTORES DE CLASE (mínimo 2, usados en varios elementos)
+   ---------------------------------------- */
+
+/* Clase: .verde — títulos de sección en créditos (Directores, Voces) */
+.verde {
+    color: #64dcc8;
+    font-family: 'Cinzel Decorative', serif;
+    font-size: 1.1em;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-top: 24px;
+    margin-bottom: 4px;
+    text-shadow: 0 0 10px rgba(100, 220, 200, 0.4);
+}
+
+/* Clase: .rosa — títulos de sección en créditos (Escritores, Productores) */
+.rosa {
+    color: #f06aa0;
+    font-family: 'Cinzel Decorative', serif;
+    font-size: 1.1em;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-top: 24px;
+    margin-bottom: 4px;
+    text-shadow: 0 0 10px rgba(240, 106, 160, 0.4);
+}
+
+/* ----------------------------------------
+   TÍTULOS h1, h2, h3
+   ---------------------------------------- */
+
+h1 {
+    font-family: 'Cinzel Decorative', serif;
+    font-size: 3.2em;
+    color: #ffffff;
+    text-shadow:
+        0 0 20px rgba(100, 220, 200, 0.7),
+        0 0 50px rgba(100, 220, 200, 0.3);
+    letter-spacing: 0.05em;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-family: 'Cinzel Decorative', serif;
+    font-size: 2.2em;
+    color: #64dcc8;
+    text-shadow: 0 0 15px rgba(100, 220, 200, 0.5);
+    margin-bottom: 16px;
+}
+
+h3 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.4em;
+    color: #f06aa0;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    margin-top: 28px;
+    margin-bottom: 8px;
+}
+/*Declaración de uso de IA: Este código fue generado por la IA, utilizando el de la práctica 9 como referencia. Tiene una estética mucho más marcada, 
+me gusta que tuvo en cuenta la temática de la serie para armarla. El código se entiende y está igual de organizado que en mi versión. */

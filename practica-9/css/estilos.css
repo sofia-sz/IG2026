@@ -1,0 +1,31 @@
+h1{
+    color:hotpink;
+    font-family: fantasy;
+}
+h2{
+    color:rgb(31, 224, 144);
+    font-family: fantasy;
+}
+h3{
+    color:rgb(230, 73, 177);
+    font-family: fantasy;
+}
+p{
+    font-weight: bold;
+}
+#menu {
+    color:darkslateblue;
+    font-family: fantasy;
+}
+#creditos {
+    color:rgb(247, 169, 24);
+    font-family: fantasy;
+}
+.verde {
+    color:rgb(33, 204, 105);
+    font-family: fantasy;
+}
+.rosa {
+    color:rgb(230, 73, 177);
+    font-family: fantasy;
+}

@@ -1,0 +1,21 @@
+header {
+    color: greenyellow;
+    font-size: 50px;
+    font-family: "Space Grotesk";
+    text-align: center;
+}
+
+.menu {
+    color: white;
+    font-size: 30px;
+}
+
+a {
+    background-color: greenyellow;
+    color: black;
+}
+
+body {
+    color: white;
+    background-color: black;
+}

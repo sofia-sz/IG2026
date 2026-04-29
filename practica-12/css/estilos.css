@@ -1,0 +1,62 @@
+header {
+    color: greenyellow;
+    font-size: 50px;
+    font-family: "Space Grotesk";
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;    
+}
+
+nav {
+    background-color: #111;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+}
+
+.menu li a{
+    color: white;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 14px 32px;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    background-color: greenyellow;
+    color: black;
+}
+
+
+
+body {
+    color: white;
+    background-color: black;
+    font-family: "Space Grotesk";
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+iframe {
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+}
+
+
+footer a {
+    color: greenyellow;
+    text-decoration: none;
+}
+
+/*Declaración de uso de IA: Este código fue mejorado con la IA, utilizando el de la práctica 11 como referencia. Me ayudó con la estética/disposición del título, el menú de navegación el footer y las imágenes. */

@@ -1,0 +1,26 @@
+body {
+    background-color: cadetblue;
+}
+
+h1 {
+    color:darkgreen;
+    text-align: center;
+}
+
+h2 {
+    color:#003764;
+}
+
+p {
+    color:antiquewhite;
+    background-color: darkcyan;
+}
+
+u {
+    text-decoration: none;
+}
+
+u li {
+    color:rgb(86, 201, 216);
+    background-color:rgb(94, 58, 226);
+}

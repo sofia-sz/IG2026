@@ -1,0 +1,10 @@
+let nombre = 'Sofía';
+let apellido = 'Suárez';
+let nombreCompleto = nombre + ' ' + apellido;
+let edad = 27;
+const uni = "Universidad Nacional de las Artes";
+nombre = 'aífoS';
+apellido = 'zeráuS';
+nombreCompleto = 'otracosa';
+edad = 2;
+uni = 'UBA';

@@ -1,0 +1,13 @@
+alert('Al aceptar cambia todo');
+let fondo = document.querySelector('body');
+fondo.style.backgroundColor = 'pink';
+let titulo = document.querySelector('h1');
+titulo.style.color = 'red';
+titulo.innerText = 'olutiT';
+let parrafos = document.querySelectorAll('p');
+parrafos[0].style.color = 'darkred';
+parrafos[0].style.backgroundColor = 'white';
+parrafos[0].innerText = 'odnuM aloH';
+parrafos[1].style.color = 'darkred';
+parrafos[1].style.backgroundColor = 'white';
+parrafos[1].innerText = 'sóidA';

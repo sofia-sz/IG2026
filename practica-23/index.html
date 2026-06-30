@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Pupitres</title> 
+    </head>
+    <body>
+        <header>¡Bienvenidx!</header>
+        <main>
+            <h1>Completá la cantidad de pupitres por aula:</h1>
+            <form action="" method="get">
+                <label for="au001">001:</label>
+                <input type="number" name="au001" id="au001">
+                <label for="au101">101:</label>
+                <input type="number" name="au101" id="au101">
+                <label for="au201">201:</label>
+                <input type="number" name="au201" id="au201">
+                <label for="au301">301:</label>
+                <input type="number" name="au301" id="au301">
+                <label for="au501">501:</label>
+                <input type="number" name="au501" id="au501">
+            </form>
+            <section>
+                <p class="resultado1">El aula con más pupitres?</p>
+                <form action="" method="get">
+                    <button type="button" onclick="calcular1()">Calcular</button>
+                </form>
+                <p class="resultado2">El aula con menos pupitres?</p>
+                <form action="" method="get">
+                    <button type="button" onclick="calcular2()">Calcular</button>
+                </form>
+                <p class="resultado3">Cuántos pupitres faltan para que cada aula tenga mínimo 80?</p>
+                <form action="" method="get">
+                    <button type="button" onclick="calcular3()">Calcular</button>
+                </form>
+            </section>
+        </main>
+        <script src="js/index.js"></script> 
+    </body>
+</html>

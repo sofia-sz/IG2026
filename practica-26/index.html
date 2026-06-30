@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Presupuesto</title> 
+    </head>
+    <body>
+        <header class = 'bienvenida'>¡Bienvenidx!</header>
+        <main>
+            <h1>Calculá el presupuesto para el alquiler de equipos multimedia:</h1>
+            <form action="" method="get">
+                <label for="proyectores">Ingrese cantidad de proyectores</label>
+                <input type="number" name="proyectores" id="proyectores">
+                <label for="computadoras">Ingrese cantidad de computadoras</label>
+                <input type="number" name="computadoras" id="computadoras">
+                <label for="pantallas">Ingrese cantidad de pantallas</label>
+                <input type="number" name="pantallas" id="pantallas">
+                <label for="dias">Ingrese los días necesarios de alquiler</label>
+                <input type="number" name="dias" id="dias">
+                <button type="button" onclick="calcular()">Calcular</button> 
+            </form>
+            <section>
+                <p class = "presupuesto"></p>
+            </section>
+        </main>
+        <script src="js/index.js"></script> 
+    </body>
+</html>

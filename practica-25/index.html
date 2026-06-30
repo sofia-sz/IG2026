@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Series</title> 
+    </head>
+    <body>
+        <header class = 'bienvenida'>¡Bienvenidx!</header>
+        <main>
+            <h1>Completá el formulario para recibir una recomendación de serie:</h1>
+            <form action="" method="get">
+                <label for="nombre">Ingrese su nombre</label>
+                <input type="text" name="nombre" id="nombre">
+                <label for="edad">Ingrese su edad</label>
+                <input type="number" name="edad" id="edad">
+                <label for="genero">Elija un género</label>
+                <select name="genero" id="genero">
+                    <option value="acción">Acción</option>
+                    <option value="cFiccion">Ciencia Ficción</option>
+                    <option value="fantasia">Fantasía</option>
+                    <option value="romance">Romance</option>
+                    <option value="comedia">Comedia</option>
+                    <option value="terror">Terror</option>
+                </select>
+                <button type="button" onclick="recomendar()">Pedir recomendación</button>
+            </form>
+            <section>
+                <p class = "recomendacion">hola</p>
+            </section>
+        </main>
+        <script src="js/index.js"></script> 
+    </body>
+</html>

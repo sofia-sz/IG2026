@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Compras de clientes</title> 
+    </head>
+    <body>
+        <header class = 'bienvenida'>¡Bienvenidx!</header>
+        <main>
+            <h1>Compras de clientes</h1>
+            <form>
+                <label for="nombre">Ingrese su nombre</label>
+                <input type="text" name="nombre" id="nombre">
+                <label for="monto">Ingrese el monto de compra</label>
+                <input type="number" name="monto" id="monto">
+                <button type="button" name="enviar" id="enviar">Enviar</button>
+                <button type="button" name="calcular" id="calcular">Calcular total</button>
+                <button type="button" name="aplicar" id="aplicar">Aplicar descuento</button>
+            </form>
+            <section>
+                <p class = "calculo"></p>
+                <p class = "descuento"></p>
+            </section>
+        </main>
+        <script src="js/index.js"></script> 
+    </body>
+</html>

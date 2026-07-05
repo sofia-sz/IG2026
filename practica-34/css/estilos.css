@@ -1,0 +1,17 @@
+.imagenes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imagenes div {
+    flex-basis: 20%;
+}
+
+.imagenes img {
+    width: 95%;
+    margin: 5%;
+}
+
+.imagenes p {
+    margin: 5%;
+}
